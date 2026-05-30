@@ -12,7 +12,7 @@
 ---
 
 ## Структура на проект
-book-library/
+```
 book-library
 ├── app
 │   ├── Dockerfile
@@ -27,7 +27,7 @@ book-library
 │   └── init.sql
 └── docker-compose.yml
 └── README.md
-
+```
 ---
 
 
