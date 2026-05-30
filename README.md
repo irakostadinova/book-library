@@ -13,20 +13,19 @@
 
 ## Структура на проект
 book-library/
-├── app/
-│ ├── index.php
-│ ├── add.php
-│ ├── edit.php
-│ ├── delete.php
-│ ├── db.php
-│ ├── Dockerfile
-│ └── assets/
-│  └── style.css
-│
-├── db/
-│ └── init.sql
-│
-├── docker-compose.yml
+book-library
+├── app
+│   ├── Dockerfile
+│   ├── add.php
+│   ├── assets
+│   │   └── style.css
+│   ├── db.php
+│   ├── delete.php
+│   ├── edit.php
+│   └── index.php
+├── db
+│   └── init.sql
+└── docker-compose.yml
 └── README.md
 
 ---
@@ -98,8 +97,8 @@ docker compose down
 ## Автор
 **Име:** Ира Костадинова  
 **Номер:** 22212  
-**Курс:** Обектно-ориентирано програмиране (C++)  
-**Дата:** 02.12.2025
+**Курс:** Операционни системи  
+**Дата:** 05.06.2026
 
 
 
