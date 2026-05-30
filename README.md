@@ -13,7 +13,7 @@
 
 ## Структура на проект
 ```
-book-library
+book-library/
 ├── app
 │   ├── Dockerfile
 │   ├── add.php
@@ -24,8 +24,8 @@ book-library
 │   ├── edit.php
 │   └── index.php
 ├── db
-│   └── init.sql
-└── docker-compose.yml
+│   └── init.sql
+├── docker-compose.yml
 └── README.md
 ```
 ---
@@ -65,6 +65,16 @@ Docker Compose автоматично осигурява комуникация 
 
 ---
 
+## Docker Hub image
+
+Docker образът на проекта е създаден от Dockerfile и е качен в Docker Hub:
+
+```
+https://hub.docker.com/repository/docker/irakostadinova/book-library-web/general
+```
+
+Image: `irakostadinova/book-library-web:latest`
+
 ## Стартиране на проекта
 
 ### 1. Стартиране на контейнерите
@@ -73,7 +83,9 @@ docker compose up -d --build
 ```
 
 ### 2. Отваряне в браузър
+```
 http://localhost:8080
+```
 
 ### 3. Спиране на контейнерите
 ```bash
@@ -99,7 +111,3 @@ docker compose down
 **Номер:** 22212  
 **Курс:** Операционни системи  
 **Дата:** 05.06.2026
-
-
-
-
